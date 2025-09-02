@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table,th,td
+{
+border:1px solid black;
+}
+table
+{
+border-spacing:30px;
+}
+th,td
+{
+padding:15px;
+}
+th
+{
+ background-color:skyblue;
+ color:black;
+}
+</style>
+<title>Registration Form</title>
+<body>
+<form>
+<table>
+<caption><b>Registration Form</b></caption>
+ <tr>
+	
+	<th>Personal Details</th>
+ </tr>
+ <tr>
+  <td>First Name* :<input type:"text" required></td>
+ </tr>
+<tr>
+  <td>Last name* :<input type:"text" required></td>
+</tr>
+<tr>
+  <td>Email* :<input type:"text" required></td>
+ </tr>
+<tr>
+  <td>Phone number :<input type:"text" required></td>
+ </tr>
+<tr>
+	<th>Account Details</th>
+ </tr>
+<tr>
+<td>Username* :<input type:"text" required></td>
+ </tr>
+<tr>
+  <td>Password* :<input type:"text" required></td>
+</tr>
+<tr>
+  <td>Confirm Password* :<input type:"text" required></td>
+ </tr>
+<tr>
+	<th>Address</th>
+ </tr>
+<tr>
+<td>Address line 1* :<textarea rows="2" cols="8"></textarea></td>
+ </tr>
+<tr>
+<td>Address line 2 :<textarea rows="2" cols="8"></textarea></td>
+ </tr>
+<tr>
+<td>state* : <select>
+			   <option>Telangana</option>
+			   <option>Bihar</option>
+			   <option>Andhra pradesh</option>
+			   <option>Jharkhand</option>
+			   <option>Madhya Pradesh</option>
+			   <option>Himachal pradesh</option>
+			   <option>Arunachal Pradesh</option>
+			   <option>Uttar Pradesh</option>
+			</select></td></tr>
+<tr>
+<td>Zip Code* :<input type:tel required></td>
+</tr>
+<tr>
+<th>Preference</th>
+</tr>
+<tr>
+<td>Gender* :<br> <input type="radio">Male
+    <input type="radio">Female
+    <input type="radio">Other
+</td>
+<tr>
+<td>
+<input type="radio" optional>Subscribe to Newsletter
+</td>
+</tr>
+<tr>
+<td>Short Bio :<textarea rows="2" cols="8"></textarea></td>
+</tr>
+<tr>
+<td>
+        <input type="checkbox">Agrees to term & condition<br><br>
+	<iframe src="term&condition.html" width="800" height="150">
+	Sorry your browser does not support inline frames.
+	</iframe>
+ </td>
+ <tr> 
+	<th> Form Submission :</th>
+</tr>
+<tr>
+	<td><input type="submit" name="submit" value"Submit>
+            <input type="reset" name="reset" value"Reset"></td>
+ </tr>
+</table>
+</form>
+</body>
+</html>
